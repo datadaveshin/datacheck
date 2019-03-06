@@ -1,0 +1,25 @@
+.Title-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 7em;
+  width: 100vw;
+  background-color: #0f1010;
+}
+
+.Title-logo {
+  animation: Title-logo-spin infinite 10s linear;
+  height: 8vmin;
+  pointer-events: none;
+}
+
+@keyframes Title-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
